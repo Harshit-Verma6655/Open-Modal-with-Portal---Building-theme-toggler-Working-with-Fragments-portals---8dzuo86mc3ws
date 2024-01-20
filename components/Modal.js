@@ -1,4 +1,4 @@
-import {document } from "next/document";
+import {document, body } from "next/document";
 import ReactDOM from 'react-dom';
 
 const Modal = ({ children, isOpen, onClose }) => {
@@ -17,7 +17,7 @@ const Modal = ({ children, isOpen, onClose }) => {
       </div>
     </div>,
     document.body
-)
+);
 };
 
 export default Modal;
