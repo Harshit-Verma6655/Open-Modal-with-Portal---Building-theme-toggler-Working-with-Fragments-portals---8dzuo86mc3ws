@@ -1,4 +1,4 @@
-
+import {document } from "next/document";
 import ReactDOM from 'react-dom';
 
 const Modal = ({ children, isOpen, onClose }) => {
